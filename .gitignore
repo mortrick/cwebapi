@@ -15,9 +15,9 @@
 .history
 
 
-# Ignore keys
-keys
-./keys/config.json
+# Windows shortcuts
+*.lnk
+.keys/*
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -42,8 +42,6 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
-# Windows shortcuts
-*.lnk
 
 # End of https://www.gitignore.io/api/windows,visualstudiocode
 
