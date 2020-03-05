@@ -17,7 +17,7 @@
 
 # Ignore keys
 keys
-.config.json
+./keys/config.json
 
 ### Windows ###
 # Windows thumbnail cache files
