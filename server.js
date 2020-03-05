@@ -5,7 +5,7 @@ var app = express()
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
-cred = require('./getcred');
+cred = require('./keys/getcred');
 
 credentials = {
     host: cred.storageConfig.host,
