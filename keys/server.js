@@ -14,7 +14,7 @@ credentials = {
     database: cred.storageConfig.mng_schema
 }
 
-const conn = mysql.createConnection(credentials)
+const conn = mysql.createConnection(credentials);
 
 
 conn.connect((err) => {
